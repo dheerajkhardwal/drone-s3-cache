@@ -106,7 +106,7 @@ steps:
     dockerfile: docker/Dockerfile.linux.amd64
     password:
       from_secret: docker_password
-    repo: plugins/s3-cache
+    repo: dheerajkhardwal/drone-s3-cache
     username:
       from_secret: docker_username
   when:
@@ -172,7 +172,7 @@ steps:
     dry_run: true
     password:
       from_secret: docker_password
-    repo: plugins/s3-cache
+    repo: dheerajkhardwal/drone-s3-cache
     tags: linux-arm64
     username:
       from_secret: docker_username
@@ -190,7 +190,7 @@ steps:
     dockerfile: docker/Dockerfile.linux.arm64
     password:
       from_secret: docker_password
-    repo: plugins/s3-cache
+    repo: dheerajkhardwal/drone-s3-cache
     username:
       from_secret: docker_username
   when:
@@ -256,7 +256,7 @@ steps:
     dry_run: true
     password:
       from_secret: docker_password
-    repo: plugins/s3-cache
+    repo: dheerajkhardwal/drone-s3-cache
     tags: linux-arm
     username:
       from_secret: docker_username
@@ -274,7 +274,7 @@ steps:
     dockerfile: docker/Dockerfile.linux.arm
     password:
       from_secret: docker_password
-    repo: plugins/s3-cache
+    repo: dheerajkhardwal/drone-s3-cache
     username:
       from_secret: docker_username
   when:
